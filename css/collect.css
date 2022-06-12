@@ -1,0 +1,288 @@
+body {
+    height: 100vh;
+    background: linear-gradient(114.46659226298777deg, rgba(190, 237, 227, 1) 16.991539979964926%, rgba(160, 209, 222, 1) 94.0721105458785%);
+    overflow: hidden;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header {
+    height: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.collect-header {
+    float: left;
+    width: 500px;
+    box-sizing: border-box;
+    border-right: 2px solid #fff;
+}
+
+.collect-header h1 {
+    font-size: 38px;
+    margin: 10px 60px;
+}
+
+.collect-header input {
+    width: 400px;
+    height: 45px;
+    margin: 10px 50px;
+    font-size: 22px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background: rgba(190, 237, 227, 1) 16.991539979964926%;
+}
+
+.nav {
+    float: left;
+    width: 500px;
+    padding: 15px;
+}
+
+.nav span {
+    display: block;
+    float: left;
+}
+
+.nav span:first-child {
+    margin: 10px 30px 10px 60px;
+}
+
+.nav span:first-child p {
+    /* margin: 0 60px; */
+    width: 50px;
+}
+
+.nav span:nth-child(2),
+.nav span:nth-child(3),
+.nav span:nth-child(4)
+ {
+    margin: 10px 30px;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+
+.nav span:nth-child(2) img {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+
+.nav span:nth-child(3){
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+
+.nav span:nth-child(3) img {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+
+.nav span:nth-child(4) img {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+
+.nav span:nth-child(2) p {
+    width: 50px;
+    text-align: center;
+}
+
+.nav span:nth-child(3) p {
+    width: 50px;
+    text-align: center;
+}
+
+.nav span:nth-child(4) p {
+    width: 50px;
+    text-align: center;
+}
+
+.catalog {
+    float: left;
+    width: 500px;
+    box-sizing: border-box;
+    height: 600px;
+    
+}
+
+
+.total {
+    display: none;
+    margin: 0 70px;
+}
+.total input {
+    width: 20px;
+    height: 20px;
+}
+.total p {
+    display: inline;
+    font-size: 20px;
+}
+
+.total #ready {
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.total #delete {
+    float: right;
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.catalog-1 {
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5) inset;
+}
+
+.catalog-1,
+.catalog-2,
+.catalog-3,
+.catalog-4 {
+    width: 400px;
+    height: 80px;
+    background: linear-gradient(110.5057981109727deg, rgba(236, 236, 236, 1) 5.533854166666667%, rgba(195, 229, 248, 1) 96.67968749999999%);
+    border-radius: 25px;
+    margin: 20px 50px;
+}
+
+.classes {
+    font-size: 20px;
+    line-height: 80px;
+    float: left;
+}
+
+.frontling {
+    float: left;
+    width: 60px;
+    height: 80px;
+    position: relative;
+}
+
+.underling {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left:5px;
+    width: 20px;
+    height: 20px;
+}
+
+.close {
+    display: none;
+    float: right;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 25px 15px 0 0;
+    cursor: pointer;
+}
+
+
+
+.new {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 45px auto;
+}
+
+.new img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+
+.content {
+    float: left;
+    position: relative;
+    height: 480px;
+    width: 650px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 10px 0 0 100px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.content img {
+    float: left;
+    height: 160px;
+    width: 320px;
+    margin: 30px 0 20px 60px;
+    border-radius: 15px;
+}
+
+.content h1 {
+    float: right;
+    margin: 35px 65px 20px 0;
+
+}
+
+.content h1 a:hover {
+    color: #fff;
+}
+
+.content .brief {
+    width: 240px;
+    float: right;
+}
+
+.content .brief:first-child {
+    margin: 20px 0;
+}
+
+.time {
+    margin: 30px 0;
+    float: left;
+    width: 200px;
+    height: 60px;
+}
+
+#page {
+    float: left;
+    margin: 0 70px;
+    width: 500px;
+    height: 160px;
+    font-size: 16px;
+}
+
+.more {
+    float: left;
+    font-size: 18px;
+    margin: 0 80px;
+}
+
+.more a:hover {
+    color: #fff;
+}
+
+.swiper {
+    width: 680px;
+    height: 480px;
+    padding: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 630px;
+    height: 480px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.632) inset;
+}

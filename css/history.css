@@ -1,0 +1,235 @@
+body {
+    height: 100vh;
+    background-color: rgba(135, 207, 235, 0.601);
+}
+
+/* 右边样式 */
+#right {
+    float: left;
+    width: 420px;
+    height: 100%;
+    border-right: 2px solid #fff;
+}
+
+h1 {
+    width: 340px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1 a:hover {
+    color: #fff;
+}
+
+input {
+    width: 360px;
+    height: 45px;
+    margin: 20px 0 20px 30px;
+    font-size: 22px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background: rgba(135, 207, 235, 0.601);
+}
+
+#right li {
+    width: 400px;
+    height: 60px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+svg {
+    font-family: "system-ui", sans-serif;
+    font-size: 0;
+    cursor: pointer;
+    color: #262626;
+    width: 20;
+    height: 20;
+    fill: #262626;
+}
+
+#itemTitle1,
+#itemTitle3,
+#itemTitle5,
+#itemTitle7,
+#itemTitle9 {
+    font-family: "system-ui", sans-serif;
+    cursor: pointer;
+    color: #262626;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.c01136 {
+    display: flex;
+    min-width: fit-content;
+    font-size: 0;
+    align-items: stretch;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.c01137 {
+    cursor: pointer;
+    position: relative;
+    min-height: 32px;
+    color: #262626;
+    /* background: rgba(135, 207, 235, 0.601); */
+}
+
+.c01138 {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.c01139 {
+    fill: #262626;
+}
+
+.c01147::after {
+    width: 3px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    height: 20px;
+    background: #0072C9;
+    left: 2px;
+    right: unset;
+    border-radius: 2px;
+}
+
+.c01141 {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 32px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+
+.c01141::before {
+    width: 0;
+    content: '';
+    display: block;
+    flex-shrink: 0;
+}
+.c01142 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.c01140 {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+/* 左边样式 */
+#left {
+    float: left;
+    width: 900px;
+    height: 100%;
+}
+
+#left nav a:hover {
+    color: #fff;
+}
+
+#left nav {
+    height: 60px;
+}
+
+nav input {
+    width: 20px;
+    height: 20px;
+    margin: 30px 0 0 120px;
+}
+
+nav p {
+    display: inline;
+    font-size: 20px;
+}
+
+nav div {
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 30px 120px 0 0;
+    cursor: pointer;
+}
+
+#left li {
+    width: 900px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 30px 0 30px 40px;
+}
+
+.frontling {
+    float: left;
+    width: 60px;
+    height: 80px;
+    position: relative;
+}
+
+.underling {
+    /* display: none; */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    margin: 15px 15px 0 0;
+}
+
+.content {
+    float: left;
+    width: 700px;
+    height: 60px;
+}
+
+.content img {
+    width: 20px;
+    height: 20px;
+    margin: 20px 0;
+}
+
+.content span {
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.time {
+    float: right;
+    width: 100px;
+    height: 60px;
+}
+
+.c014170 {
+    float: right;
+    width: 30px;
+    margin: 22px;
+    text-align: center;
+    line-height: 16px;
+    margin-left: 6px;
+    white-space: nowrap;
+    user-select: none;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #767676;
+}
