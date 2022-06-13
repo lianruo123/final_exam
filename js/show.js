@@ -40,4 +40,16 @@ window.addEventListener('load', function () {
         }, 500);
         isFirst = true;
     }, 2000);
+    // tag标签选择
+    var choosebtns = document.querySelector('#Tag').querySelectorAll('li');
+    for(var i = 0;i<choosebtns.length;i++){
+        choosebtns[i].setAttribute('index',i);
+        choosebtns[i].addEventListener('click',function(){
+            var index = parseInt(this.getAttribute('index'));
+            for(var j = 0;j<choosebtns.length;j++){
+                choosebtns[j].classList.remove('current');
+            }
+            this.classList.add('current');
+        })
+    }
 })

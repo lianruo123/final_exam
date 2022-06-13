@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     background-color: rgba(135, 207, 235, 0.601);
+    overflow: hidden;
 }
 
 /* 右边样式 */
@@ -138,7 +139,7 @@ svg {
 /* 左边样式 */
 #left {
     float: left;
-    width: 900px;
+    width: 1100px;
     height: 100%;
 }
 
@@ -169,8 +170,13 @@ nav div {
     cursor: pointer;
 }
 
+#j_tb {
+    height: 94vh;
+    overflow: scroll;
+}
+
 #left li {
-    width: 900px;
+    width: 1000px;
     height: 60px;
     background-color: #fff;
     border-radius: 8px;

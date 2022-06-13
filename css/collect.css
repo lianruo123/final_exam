@@ -38,7 +38,7 @@ body {
 
 .nav {
     float: left;
-    width: 500px;
+    width: 700px;
     padding: 15px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .nav span:first-child {
-    margin: 10px 30px 10px 60px;
+    margin: 10px 30px 10px 120px;
 }
 
 .nav span:first-child p {
@@ -60,7 +60,7 @@ body {
 .nav span:nth-child(3),
 .nav span:nth-child(4)
  {
-    margin: 10px 30px;
+    margin: 10px 60px;
     width: 46px;
     height: 46px;
     border-radius: 23px;
@@ -210,11 +210,11 @@ body {
     float: left;
     position: relative;
     height: 480px;
-    width: 650px;
+    width: 750px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    margin: 10px 0 0 100px;
+    margin: 10px 0 0 120px;
     padding: 0;
     border-radius: 15px;
 }
@@ -256,7 +256,7 @@ body {
 #page {
     float: left;
     margin: 0 70px;
-    width: 500px;
+    width: 620px;
     height: 160px;
     font-size: 16px;
 }
@@ -272,7 +272,7 @@ body {
 }
 
 .swiper {
-    width: 680px;
+    width: 750px;
     height: 480px;
     padding: 50px;
 }
@@ -280,7 +280,7 @@ body {
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 630px;
+    width: 750px;
     height: 480px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;

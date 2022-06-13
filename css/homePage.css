@@ -1,146 +1,63 @@
 .shortcut {
-    margin: 0;
-    height: 80px;
+  margin: 0;
+  height: 80px;
 }
-body {
-    padding: 0;
-    margin: 0;
-     background: linear-gradient(114.46659226298777deg, rgba(190, 237, 227,1) 16.991539979964926%,rgba(160, 209, 222,1) 94.0721105458785%);
-}
-   
 
-.search{
-    float: left;
-    /* 默认宽度为0(隐藏) */
-    width: 1010px;
-    height: 60px;
-    border: 3px solid #fff;
-    border-radius: 25px;
-    margin: 30px 0px 0 80px;
-    /* 溢出隐藏 */
-    overflow: hidden;
+body {
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(114.46659226298777deg, rgba(190, 237, 227, 1) 16.991539979964926%, rgba(160, 209, 222, 1) 94.0721105458785%);
 }
-.search input{
-    float: left;
-    width: 940px;
-    height: 60px;
-    border: none;
-    background: none;
-    outline: none;
-    color: #fff;
-    line-height: 60px;
-    font-size: 24px;
-    text-indent: 8px;
+
+
+.search {
+  float: left;
+  /* 默认宽度为0(隐藏) */
+  width: 1010px;
+  height: 60px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  margin: 30px 0px 0 80px;
+  /* 溢出隐藏 */
+  overflow: hidden;
+}
+
+.search input {
+  float: left;
+  width: 940px;
+  height: 60px;
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  line-height: 60px;
+  font-size: 24px;
+  text-indent: 8px;
 }
 
 .s_search {
-    border-left: 2px solid #fff;
-    padding-left: 6px;
-    float: left;
-    width: 60px;
-    height: 60px;
-    font-size: 24px;
-    line-height: 60px;
+  border-left: 2px solid #fff;
+  padding-left: 6px;
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
 }
 
 .classify-header img {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
 }
 
 .classify-header {
-    float: right;
-    width: 60px;
-    height: 60px;
-    background-color: aquamarine;
-    border-radius: 30px;
-    margin: 20px 100px 0 0;
+  float: right;
+  width: 60px;
+  height: 60px;
+  background-color: aquamarine;
+  border-radius: 30px;
+  margin: 20px 100px 0 0;
 }
-
-
-
-
-
-
-
-.carousel {
-    margin-bottom: 4rem;
-  }
-  
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-  
-  .carousel-indicators {
-    margin-bottom: 30px;
-  }
-  
-  
-  .carousel-item {
-    margin: 20px 0;
-    height: 60rem;
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-  }
-  
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-  }
-  
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  
-  
-  .featurette-divider {
-    margin: 5rem 0;
-  }
-  
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
-  }
-  
-  .lead {
-    font-size: 22px !important;
-    color: #555;
-  }
-  
-  
-  @media (min-width: 40em) {
-    .carousel-caption p {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      line-height: 1.4;
-    }
-  
-    .featurette-heading {
-      font-size: 50px;
-    }
-  }
-  
-  @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 7rem;
-    }
-  }
-
-  
-  footer p {
-    font-size: 18px;
-  }
-  
-  
