@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>历史 回溯过去寻找初心</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/history.css">
+    <script type="text/javascript" src="js/history.js"></script>
+</head>
+
+
+<body>
+    <!-- 使用flex布局 -->
+    <div id="right">
+
+        <h1>
+            <a href="first.html"><img src="images/curr_prev.png" alt="">历史记录</a>
+        </h1>
+        <input type="search" placeholder="请输入...">
+        <div aria-label="历史记录筛选器" role="tree" tabindex="0" class="c01136">
+            <div id="all" data-tree-view-item-id="2" role="treeitem" aria-selected="true" title="全部" tabindex="-1"
+                class="c01137 c01147">
+                <div title="全部" class="c01141">
+                    <div class="c01142">
+                        <div aria-hidden="true" class="c01140"><svg width="20" height="20" viewBox="0 0 20 20"
+                                class="c01139">
+                                <path
+                                    d="M7.5 11c.83 0 1.5.67 1.5 1.5v4c0 .83-.67 1.5-1.5 1.5h-4A1.5 1.5 0 012 16.5v-4c0-.83.67-1.5 1.5-1.5h4zm9 0c.83 0 1.5.67 1.5 1.5v4c0 .83-.67 1.5-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4c0-.83.67-1.5 1.5-1.5h4zm-9 1h-4a.5.5 0 00-.5.5v4c0 .28.22.5.5.5h4a.5.5 0 00.5-.5v-4a.5.5 0 00-.5-.5zm9 0h-4a.5.5 0 00-.5.5v4c0 .28.22.5.5.5h4a.5.5 0 00.5-.5v-4a.5.5 0 00-.5-.5zm-9-10C8.33 2 9 2.67 9 3.5v4C9 8.33 8.33 9 7.5 9h-4A1.5 1.5 0 012 7.5v-4C2 2.67 2.67 2 3.5 2h4zm9 0c.83 0 1.5.67 1.5 1.5v4c0 .83-.67 1.5-1.5 1.5h-4A1.5 1.5 0 0111 7.5v-4c0-.83.67-1.5 1.5-1.5h4zm-9 1h-4a.5.5 0 00-.5.5v4c0 .28.22.5.5.5h4a.5.5 0 00.5-.5v-4a.5.5 0 00-.5-.5zm9 0h-4a.5.5 0 00-.5.5v4c0 .28.22.5.5.5h4a.5.5 0 00.5-.5v-4a.5.5 0 00-.5-.5z"
+                                    fill-rule="nonzero"></path>
+                            </svg></div>
+                        <div id="itemTitle1" class="c01138">全部</div>
+                    </div>
+                </div>
+            </div>
+            <div id="today" data-tree-view-item-id="4" role="treeitem" aria-selected="false" title="今天" tabindex="-1"
+                class="c01137">
+                <div title="今天" class="c01141">
+                    <div class="c01142">
+                        <div aria-hidden="true" class="c01140"><svg width="20" height="20" viewBox="0 0 20 20"
+                                class="c01139">
+                                <path
+                                    d="M10 2a8 8 0 110 16 8 8 0 010-16zm0 1a7 7 0 100 14 7 7 0 000-14zm-.5 2a.5.5 0 01.5.41V10h2.5a.5.5 0 01.09 1H9.5a.5.5 0 01-.5-.41V5.5c0-.28.22-.5.5-.5z"
+                                    fill-rule="nonzero"></path>
+                            </svg></div>
+                        <div id="itemTitle3" class="c01138">今天</div>
+                    </div>
+                </div>
+            </div>
+            <div id="yesterday" data-tree-view-item-id="6" role="treeitem" aria-selected="false" title="昨天"
+                tabindex="-1" class="c01137">
+                <div title="昨天" class="c01141">
+                    <div class="c01142">
+                        <div aria-hidden="true" class="c01140"><svg width="20" height="20" viewBox="0 0 20 20"
+                                class="c01139">
+                                <path
+                                    d="M14.5 3A2.5 2.5 0 0117 5.5v9a2.5 2.5 0 01-2.5 2.5h-9A2.5 2.5 0 013 14.5v-9A2.5 2.5 0 015.5 3h9zm0 1h-9C4.67 4 4 4.67 4 5.5v9c0 .83.67 1.5 1.5 1.5h9c.83 0 1.5-.67 1.5-1.5v-9c0-.83-.67-1.5-1.5-1.5zm-1.78 5c.44 0 .6.05.77.13.16.1.29.22.38.38.08.16.13.33.13.77v2.44c0 .44-.05.6-.13.77a.9.9 0 01-.38.38c-.16.08-.33.13-.77.13H7.28c-.44 0-.6-.05-.77-.13a.9.9 0 01-.38-.38c-.08-.16-.13-.33-.13-.77v-2.44c0-.44.05-.6.13-.77a.9.9 0 01.38-.38c.16-.08.33-.13.77-.13h5.44zm.2 1H7V13h5.98v-2.98h-.08zm.58-4a.5.5 0 01.09 1H6.5a.5.5 0 01-.09-1h7.09z"
+                                    fill-rule="nonzero"></path>
+                            </svg></div>
+                        <div id="itemTitle5" class="c01138">昨天</div>
+                    </div>
+                </div>
+            </div>
+            <div id="lastWeek" data-tree-view-item-id="8" role="treeitem" aria-selected="false" title="上周" tabindex="-1"
+                class="c01137">
+                <div title="上周" class="c01141">
+                    <div class="c01142">
+                        <div aria-hidden="true" class="c01140"><svg width="20" height="20" viewBox="0 0 20 20"
+                                class="c01139">
+                                <path
+                                    d="M14.5 3A2.5 2.5 0 0117 5.34v9.16a2.5 2.5 0 01-2.34 2.5H5.5A2.5 2.5 0 013 14.66V5.5A2.5 2.5 0 015.34 3h9.16zM16 7H4v7.5c0 .78.6 1.42 1.36 1.5h9.14c.78 0 1.42-.6 1.5-1.36V7zm-9 5a1 1 0 110 2 1 1 0 010-2zm3 0a1 1 0 110 2 1 1 0 010-2zM7 9a1 1 0 110 2 1 1 0 010-2zm3 0a1 1 0 110 2 1 1 0 010-2zm3 0a1 1 0 110 2 1 1 0 010-2zm1.5-5h-9c-.78 0-1.42.6-1.5 1.36V6h12v-.5c0-.78-.6-1.42-1.36-1.5h-.14z"
+                                    fill-rule="nonzero"></path>
+                            </svg></div>
+                        <div id="itemTitle7" class="c01138">上周</div>
+                    </div>
+                </div>
+            </div>
+            <div id="older" data-tree-view-item-id="10" role="treeitem" aria-selected="false" title="更早" tabindex="-1"
+                class="c01137">
+                <div title="更早" class="c01141">
+                    <div class="c01142">
+                        <div aria-hidden="true" class="c01140"><svg width="20" height="20" viewBox="0 0 20 20"
+                                class="c01139">
+                                <path
+                                    d="M16.5 2c.83 0 1.5.67 1.5 1.5v2c0 .65-.42 1.2-1 1.41v7.59a3.5 3.5 0 01-3.5 3.5h-7A3.5 3.5 0 013 14.5V6.91c-.58-.2-1-.76-1-1.41v-2C2 2.67 2.67 2 3.5 2h13zM16 7H4v7.5A2.5 2.5 0 006.5 17h7a2.5 2.5 0 002.5-2.5V7zM8.5 9h3a.5.5 0 01.09 1H8.5a.5.5 0 01-.09-1h3.09-3zm8-6h-13a.5.5 0 00-.5.5v2c0 .28.22.5.5.5h13a.5.5 0 00.5-.5v-2a.5.5 0 00-.5-.5z"
+                                    fill-rule="nonzero"></path>
+                            </svg></div>
+                        <div id="itemTitle9" class="c01138">更早</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="left" class="container">
+        <nav>
+            <input type="checkbox" id="j_cbAll" />
+            <p>全选</p>
+            <div><a href="javascript:;" class="quit">删除</a></div>
+        </nav>
+        <ul id="j_tb">
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第一回·甄士隐梦幻识通灵　贾雨村风尘怀闺秀</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第二回·贾夫人仙逝扬州城 冷子兴演说荣国府</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第三回·托内兄如海酬训教 接外孙贾母惜孤女</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第四回·薄命女偏逢薄命郎 葫芦僧乱判葫芦案</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第五回·游幻境指迷十二钗 饮仙醪曲演红楼梦</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第六回·贾宝玉初试云雨情 刘姥姥一进荣国府</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第七回·送宫花贾琏戏熙凤 宴宁府宝玉会秦钟</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第八回·比通灵金莺微露意 探宝钗黛玉半含酸</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第九回·恋风流情友入家塾 起嫌疑顽童闹学堂</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第十回·金寡妇贪利权受辱 张太医论病细穷源</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第十一回·庆寿辰宁府排家宴 见熙凤贾瑞起淫心</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第十二回·王熙凤毒设相思局 贾天祥正照风月鉴</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="frontling">
+                    <input type="checkbox" class="underling" />
+                </div>
+                <div class="content">
+                    <img src="images/下载.png" alt="">
+                    <span>【《红楼梦》】第十三回·秦可卿死封龙禁尉 王熙凤协理宁国府</span>
+                    <div class="time">
+                        <p class="c014170 c014177" title="Tue May 31 2022 18:04:09 GMT+0800 (中国标准时间)" dir="auto">18:04</p>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="javascript:;" class="xx">X</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
